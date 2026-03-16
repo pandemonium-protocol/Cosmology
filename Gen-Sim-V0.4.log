@@ -1,0 +1,165 @@
+======================================================================
+GALACTIC CHEMICAL EVOLUTION SIMULATOR  V0.4
+======================================================================
+DCBH Seed:     1.00e+04 M_sun (gravitational anchor)
+Initial Li:    2.00e-10 (mass fraction -- post-pocket depletion)
+Initial Z:     1.00e-12 (mass fraction -- pocket cascade floor)
+
+
+--- GEN 1 POP II (Generation 1) ---
+ISM: Gas=1.00e+07  Li_frac=2.00e-10  Z=1.00e-12
+Stars formed:    5000  (stellar mass: 9.19e+03 M_sun)
+IMF weights:     low=0.55 mid=0.30 high=0.15
+Rogues:          3.69e+06 M_sun
+Bound planets:   5.53e+06 M_sun
+SN ejecta:       4.90e+01 M_sun
+Returned ISM:    9.36e+05 M_sun
+  ISM Li_frac:   1.76e-10
+  ISM Z:         3.31e-05
+
+
+--- GEN 2 POP II (Generation 2) ---
+ISM: Gas=9.36e+05  Li_frac=1.76e-10  Z=3.31e-05
+Stars formed:    5000  (stellar mass: 6.57e+03 M_sun)
+IMF weights:     low=0.65 mid=0.25 high=0.10
+Rogues:          3.51e+05 M_sun
+Bound planets:   5.26e+05 M_sun
+SN ejecta:       5.72e+01 M_sun
+Returned ISM:    6.19e+04 M_sun
+  ISM Li_frac:   1.60e-10
+  ISM Z:         1.01e-03
+
+
+--- GEN 1 POP I (Generation 3) ---
+ISM: Gas=6.19e+04  Li_frac=1.60e-10  Z=1.01e-03
+Stars formed:    5000  (stellar mass: 4.70e+03 M_sun)
+IMF weights:     low=0.70 mid=0.25 high=0.05
+Rogues:          2.40e+04 M_sun
+Bound planets:   3.63e+04 M_sun
+SN ejecta:       4.10e+01 M_sun
+Returned ISM:    3.68e+03 M_sun
+  ISM Li_frac:   7.68e-11
+  ISM Z:         1.69e-02
+
+
+======================================================================
+FINAL GALACTIC TALLY  V0.4
+======================================================================
+Dark rogue bodies:             3.4527e+06 M_sun
+  Dynamical rogues:            4.0618e+06
+  SN dark ejecta:              1.4716e+02
+  Bulge-collided (observed):   6.0929e+05  -> dust bucket
+Bound planetary mass:          6.0944e+06 M_sun
+Observed dust (bulge):         6.0929e+05 M_sun
+Remaining ISM:                 3.6816e+03 M_sun
+DCBH seed:                     1.0000e+04 M_sun
+
+
+--- CHEMISTRY ---
+Final ISM Li fraction:         7.6772e-11
+Final ISM metallicity:         1.6903e-02
+Rogue Li (trapped):            7.9235e-04 M_sun
+Rogue metals (trapped):        3.5789e+01 M_sun
+
+
+--- MASS CONSERVATION ---
+Initial mass:                  1.0150e+07 M_sun
+Accounted mass:                1.0160e+07 M_sun
+Deficit (stellar cores):       -1.0037e+04 M_sun (-0.1%)
+
+
+======================================================================
+GALACTIC CHEMICAL EVOLUTION SIMULATOR  V0.7
+======================================================================
+
+
+======================================================================
+  EPOCH 1: Gen Ichi  -
+======================================================================
+  ISM inventory:
+    Gas:  1.0000e+07 M_sun
+    Ice:  6.0000e+02 M_sun
+    Rock: 4.0000e+02 M_sun
+    Metallicity (ice+rock/total): 0.0100%
+    >>> Gen Ichi baseline (PBH-accreted gas)
+
+
+  Results:
+    Stars formed:        5000 (failed: 0)
+    Stellar mass:        4.6968e+03 M_sun
+    Stellar remnants:    2.5997e+03 M_sun (WD/NS/BH)
+    Rogues produced:     3.8130e+06 M_sun
+    Bound planets:       5.7195e+06 M_sun
+    SN solid ejecta:     7.3830e-01 M_sun
+
+
+======================================================================
+  EPOCH 2: Gen Ni  =
+======================================================================
+  ISM inventory:
+    Gas:  4.7034e+05 M_sun
+    Ice:  1.7266e+02 M_sun
+    Rock: 1.0639e+02 M_sun
+    Metallicity (ice+rock/total): 0.0593%
+    >>> DISTILLERY ENRICHMENT CONFIRMED
+
+
+  Results:
+    Stars formed:        5000 (failed: 0)
+    Stellar mass:        4.7165e+03 M_sun
+    Stellar remnants:    2.6631e+03 M_sun (WD/NS/BH)
+    Rogues produced:     1.7983e+05 M_sun
+    Bound planets:       2.6976e+05 M_sun
+    SN solid ejecta:     1.3249e+00 M_sun
+
+
+======================================================================
+  EPOCH 3: Gen San  ≡
+======================================================================
+  ISM inventory:
+    Gas:  2.2815e+04 M_sun
+    Ice:  1.6702e+02 M_sun
+    Rock: 1.0194e+02 M_sun
+    Metallicity (ice+rock/total): 1.1652%
+    >>> DISTILLERY ENRICHMENT CONFIRMED
+
+
+  Results:
+    Stars formed:        5000 (failed: 0)
+    Stellar mass:        3.5705e+03 M_sun
+    Stellar remnants:    2.4974e+03 M_sun (WD/NS/BH)
+    Rogues produced:     9.0386e+03 M_sun
+    Bound planets:       1.3558e+04 M_sun
+    SN solid ejecta:     0.0000e+00 M_sun
+
+
+======================================================================
+FINAL GALACTIC TALLY  V0.7
+======================================================================
+
+
+  --- COMPONENT MASSES (scaled to Milky Way Stellar Mass: 5.0e+10 M_sun) ---
+  Rogue bodies (DM candidate): 1.2637e+13 M_sun
+    Bulge-collided (→ bound):  2.7740e+12 M_sun
+  Bound planetary mass:        2.3116e+13 M_sun
+  Stellar remnants (WD/NS/BH): 2.9884e+10 M_sun
+  Remaining ISM:               6.0082e+09 M_sun
+
+
+  --- MASS CONSERVATION CHECK ---
+  Initial mass (scaled):       3.8513e+13 M_sun
+  Accounted mass (scaled):     3.8563e+13 M_sun
+  Deficit:                     -5.0000e+10 M_sun (-0.13%)
+  >>> MASS BUDGET CLOSES <<<
+
+
+  --- DARK MATTER CONTEXT ---
+  MW dark matter halo:         1.0000e+12 M_sun
+  Rogue bodies / DM halo:      1.2637e+01 (1263.69%)
+
+
+  --- DISTILLERY EFFICIENCY ---
+  Initial metals (scaled):     3.8509e+09 M_sun
+  Metals in rogues:            2.2595e+09 M_sun
+  Distillery yield:            58.67% of initial metals → rogue bodies
+
