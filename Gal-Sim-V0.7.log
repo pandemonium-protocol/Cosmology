@@ -1,0 +1,83 @@
+======================================================================
+GALACTIC CHEMICAL EVOLUTION SIMULATOR  V0.7
+======================================================================
+
+======================================================================
+  EPOCH 1: Gen Ichi  -
+======================================================================
+  ISM inventory:
+    Gas:  1.0000e+07 M_sun
+    Ice:  6.0000e+02 M_sun
+    Rock: 4.0000e+02 M_sun
+    Metallicity (ice+rock/total): 0.0100%
+    >>> Gen Ichi baseline (PBH-accreted gas)
+
+  Results:
+    Stars formed:        5000 (failed: 0)
+    Stellar mass:        1.0421e+07 M_sun
+    Stellar remnants:    1.1413e+06 M_sun (WD/NS/BH)
+    Rogues produced:     2.5065e+05 M_sun
+    Bound planets:       3.7598e+05 M_sun
+    SN solid ejecta:     2.0299e+04 M_sun
+
+======================================================================
+  EPOCH 2: Gen Ni  =
+======================================================================
+  ISM inventory:
+    Gas:  1.9683e+06 M_sun
+    Ice:  1.4375e+06 M_sun
+    Rock: 9.5833e+05 M_sun
+    Metallicity (ice+rock/total): 57.6800%
+    >>> DISTILLERY ENRICHMENT CONFIRMED
+
+  Results:
+    Stars formed:        5000 (failed: 0)
+    Stellar mass:        1.9683e+06 M_sun
+    Stellar remnants:    2.1551e+05 M_sun (WD/NS/BH)
+    Rogues produced:     4.7323e+04 M_sun
+    Bound planets:       7.0984e+04 M_sun
+    SN solid ejecta:     3.8336e+03 M_sun
+
+======================================================================
+  EPOCH 3: Gen San  ≡
+======================================================================
+  ISM inventory:
+    Gas:  3.7133e+05 M_sun
+    Ice:  2.7122e+05 M_sun
+    Rock: 1.8081e+05 M_sun
+    Metallicity (ice+rock/total): 57.6800%
+    >>> DISTILLERY ENRICHMENT CONFIRMED
+
+  Results:
+    Stars formed:        5000 (failed: 0)
+    Stellar mass:        3.7133e+05 M_sun
+    Stellar remnants:    4.0665e+04 M_sun (WD/NS/BH)
+    Rogues produced:     8.9290e+03 M_sun
+    Bound planets:       1.3394e+04 M_sun
+    SN solid ejecta:     7.2325e+02 M_sun
+
+======================================================================
+FINAL GALACTIC TALLY  V0.7
+======================================================================
+
+  --- COMPONENT MASSES (scaled to Milky Way Stellar Mass: 5.0e+10 M_sun) ---
+  Rogue bodies (DM candidate): 1.2628e+10 M_sun
+    Bulge-collided (→ bound):  2.2688e+09 M_sun
+  Bound planetary mass:        2.3943e+09 M_sun
+  Stellar remnants (WD/NS/BH): 6.6440e+09 M_sun
+  Remaining ISM:               2.3633e+09 M_sun
+
+  --- MASS CONSERVATION CHECK ---
+  Initial mass (scaled):       5.0000e+10 M_sun
+  Accounted mass (scaled):     4.9999e+10 M_sun
+  Deficit:                     1.0000e+04 M_sun (0.02%)
+  >>> MASS BUDGET CLOSES <<<
+
+  --- DARK MATTER CONTEXT ---
+  MW dark matter halo:         1.0000e+12 M_sun
+  Rogue bodies / DM halo:      1.2628e-02 (1.26%)
+
+  --- DISTILLERY EFFICIENCY ---
+  Initial metals (scaled):     5.0000e+06 M_sun
+  Metals in rogues:            3.0187e+06 M_sun
+  Distillery yield:            60.37% of initial metals → rogue bodies
