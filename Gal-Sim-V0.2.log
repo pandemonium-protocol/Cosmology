@@ -1,0 +1,50 @@
+======================================================================
+GALACTIC CHEMICAL EVOLUTION SIMULATOR V0.2
+======================================================================
+
+--- EPOCH 1 ---
+Starting ISM: Gas=1.00e+07, Ice=1.00e+05, Rock=5.00e+04
+ (No collisionless in ISM — routed directly to rogues)
+Stars formed: 5000 (total stellar mass: 4.70e+03 M_sun)
+Rogues produced: 3.87e+06 M_sun
+Bound planets: 5.80e+06 M_sun
+SN solid ejecta: 7.38e-01 M_sun (direct to rogues)
+Returned to ISM: 4.79e+05 M_sun (gas-phase only)
+
+--- EPOCH 2 ---
+Starting ISM: Gas=4.79e+05, Ice=0.00e+00, Rock=0.00e+00
+ (No collisionless in ISM — routed directly to rogues)
+Stars formed: 5000 (total stellar mass: 4.72e+03 M_sun)
+Rogues produced: 1.83e+05 M_sun
+Bound planets: 2.75e+05 M_sun
+SN solid ejecta: 1.32e+00 M_sun (direct to rogues)
+Returned to ISM: 2.35e+04 M_sun (gas-phase only)
+
+--- EPOCH 3 ---
+Starting ISM: Gas=2.35e+04, Ice=0.00e+00, Rock=0.00e+00
+ (No collisionless in ISM — routed directly to rogues)
+Stars formed: 5000 (total stellar mass: 4.59e+03 M_sun)
+Rogues produced: 9.20e+03 M_sun
+Bound planets: 1.38e+04 M_sun
+SN solid ejecta: 1.91e+00 M_sun (direct to rogues)
+Returned to ISM: 2.46e+03 M_sun (gas-phase only)
+
+======================================================================
+FINAL GALACTIC TALLY V0.2
+======================================================================
+Rogue bodies (dynamical): 4.0692e+06 M_sun
+ Gas rogues: 0.0000e+00
+ Ice rogues: 0.0000e+00
+ Rock rogues: 0.0000e+00
+ Collisionless (dyn): 0.0000e+00
+Rogue bodies (SN dark ejecta): 3.6110e+00 M_sun
+Total rogue mass: 4.0728e+06 M_sun
+
+Bound planetary mass: 6.0894e+06 M_sun
+Remaining ISM: 2.4585e+03 M_sun
+
+--- MASS CONSERVATION CHECK ---
+Initial mass: 1.0150e+07 M_sun
+Accounted mass: 1.0165e+07 M_sun
+Deficit (locked in stars): -1.4900e+04 M_sun (-0.1%)
+ (Expected: mass consumed by stellar cores not yet returned)
